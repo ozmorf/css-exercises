@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+
+.plant-list {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  text-align: center;
+}
+
+.barberry, .chili, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  
+  /* note to self: the flex direction is changed,
+  so to get the items centered, you have to use
+  align-items, not justify content */
+  align-items: center;
+}
